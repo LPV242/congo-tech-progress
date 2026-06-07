@@ -117,7 +117,7 @@ export default function About() {
             <h2>Mission & Vision</h2>
             <div className="line" />
           </div>
-          <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:'2rem' }} className="fade-up">
+          <div className="mv-grid fade-up">
             {[
               { grad:'linear-gradient(135deg,var(--green),#27ae60)', icon:'fa-bullseye', title:'Notre Mission', text:"Congo Tech Progress a pour mission de démocratiser l'accès aux compétences numériques en République du Congo, en proposant des formations de qualité, accessibles financièrement, adaptées aux réalités locales et ouvertes à tous." },
               { grad:'linear-gradient(135deg,var(--blue),#2980b9)',   icon:'fa-binoculars', title:'Notre Vision', text:"Nous rêvons d'un Congo où chaque citoyen dispose des compétences numériques nécessaires pour participer activement à l'économie du savoir et où les jeunes Congolais rivalisent avec les talents du monde entier." },

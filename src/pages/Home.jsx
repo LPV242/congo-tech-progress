@@ -120,7 +120,7 @@ export default function Home() {
       {/* ── ABOUT TEASER ── */}
       <section className="section bg-light">
         <div className="container">
-          <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:'4rem', alignItems:'center' }}>
+          <div className="home-about-grid">
             <div className="fade-left">
               <span className="eyebrow">Notre histoire</span>
               <h2 style={{ fontSize:'clamp(1.5rem,3vw,2rem)', fontWeight:800, marginBottom:'1rem', lineHeight:1.25 }}>
@@ -139,7 +139,7 @@ export default function Home() {
                 <i className="fas fa-arrow-right" /> En savoir plus
               </Link>
             </div>
-            <div className="fade-right" style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:'1rem' }}>
+            <div className="fade-right home-about-cards">
               {[
                 { bg:'linear-gradient(135deg,var(--green),#27ae60)', icon:'fa-graduation-cap', val:'500+', lbl:'Bénéficiaires formés', mt:'1.5rem' },
                 { bg:'linear-gradient(135deg,var(--blue),#2980b9)',  icon:'fa-award',           val:'2024', lbl:'Année de fondation', mt:'0' },
