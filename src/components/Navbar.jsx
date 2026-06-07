@@ -6,8 +6,9 @@ const links = [
   { to: '/apropos',    label: 'À propos' },
   { to: '/programmes', label: 'Programmes' },
   { to: '/documents',  label: 'Documents officiels' },
-  { to: '/actualites', label: 'Actualités' },
-  { to: '/contact',    label: 'Contact' },
+  { to: '/actualites',  label: 'Actualités' },
+  { to: '/mediatheque', label: 'Médiathèque' },
+  { to: '/contact',     label: 'Contact' },
 ]
 
 export default function Navbar() {

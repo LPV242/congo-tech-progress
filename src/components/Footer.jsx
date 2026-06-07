@@ -33,7 +33,7 @@ export default function Footer() {
           <div className="footer-col">
             <h4>Liens utiles</h4>
             <ul>
-              {[['/actualites', 'Actualités'], ['/adherer', 'Adhérer'], ['/contact', 'Contact']].map(([to, label]) => (
+              {[['/actualites', 'Actualités'], ['/mediatheque', 'Médiathèque'], ['/adherer', 'Adhérer'], ['/contact', 'Contact']].map(([to, label]) => (
                 <li key={to}>
                   <Link to={to}><i className="fas fa-chevron-right" style={{ fontSize: '0.6rem' }} /> {label}</Link>
                 </li>

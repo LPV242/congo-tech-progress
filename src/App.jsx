@@ -10,6 +10,7 @@ import Documents from './pages/Documents'
 import News from './pages/News'
 import Join from './pages/Join'
 import Contact from './pages/Contact'
+import Media from './pages/Media'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -29,6 +30,7 @@ export default function App() {
         <Route path="/documents"  element={<Documents />} />
         <Route path="/actualites" element={<News />} />
         <Route path="/adherer"    element={<Join />} />
+        <Route path="/mediatheque" element={<Media />} />
         <Route path="/contact"    element={<Contact />} />
       </Routes>
       <Footer />
